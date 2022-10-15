@@ -11,12 +11,14 @@
     font-family: "Open Sans", "Montserrat", "IBM Plex Sans",'Times New Roman', Times, serif;  
 }
 
-section {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(0deg, #FFDEE9 36%, #B5FFFC 100%);
+    padding-top: 100px;
     }
+
 .main-card {
     display: flex;
     justify-content: center;
