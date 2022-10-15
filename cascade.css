@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Open Sans", "Montserrat", "IBM Plex Sans",'Times New Roman', Times, serif;  
+}
+
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-image: linear-gradient(0deg, #FFDEE9 36%, #B5FFFC 100%);
+    border: 20px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 1098px;
+    height: 544px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 50px;
+}
+
+.cards h3 {
+    font-family: "Montserrat";
+    font-size: 26px;
+    font-weight: 800;
+    color: #141843;
+}
+
+.cards h2 {
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 700;
+    color: #141843;
+}
+
+.cards h2 span {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 700;
+    color: #141843;
+}
+
+.cards h5 {
+    padding-bottom: 30px;
+    color: #141843;
+}
+
+.cards h5, p, .button-1, .button-2, .button-3 {
+    font-family: "IBM Plex Sans";
+    color: #141843;
+}
+
+.cards p { 
+    font-weight: 600;
+    width: 220px;
+    height: 78px;
+    color: #141843;
+}
+
+.button-1, .button-2, .button-3 {
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #141843;
+
+}
+
+.button-1 {
+    background: rgba(252, 78, 140, 1);
+    color: black;
+}
+
+.button-2 {
+    background: rgba(9, 225, 239, 1);
+    color: black;
+}
+
+.button-3 {
+    background: rgba(0, 0, 0, 1);
+    color: white;
+}
